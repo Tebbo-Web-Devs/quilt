@@ -157,8 +157,9 @@ export const Profile: React.FC<ProfileProps> = () => {
               <div className="edit-avatar ml-10">
                 <span className="">Edit Avatar</span>
               </div>
+              <button className="connectWallet-btn">Add Avatar</button>
             </div>
-
+{/* 
             <div className="username">
               <span>Nickname</span>
               <input
@@ -171,13 +172,13 @@ export const Profile: React.FC<ProfileProps> = () => {
                 // value={nickname}
                 className="input-username w-4/5"
               />
-            </div>
+            </div> */}
 
-            <div className="bio-desc mt-10">
+            {/* <div className="bio-desc mt-10">
               <span>Bio</span>
 
               <textarea className="input-profile w-4/5"></textarea>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
